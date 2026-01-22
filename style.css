@@ -1,0 +1,74 @@
+body {
+    background-color: #4A6FA5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+    padding: 3rem;
+    width: 32rem;
+}
+
+/* ❌ REMOVIDO hover do card */
+
+.login h1 {
+    color: #2E2E2E;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.login label {
+    width: 100%;
+    font-size: 1.6rem;
+    color: #5F5F5F;
+    margin-bottom: 0.5rem;
+}
+
+.login input {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    padding: 0 1.2rem;
+
+    border-radius: 1.2rem;
+    border: 1px solid #D1D5DB;
+}
+
+.login input:focus {
+    outline: none;
+    border-color: #4A6FA5;
+    box-shadow: 0 0 0 2px rgba(74, 111, 165, 0.2);
+}
+
+.login button {
+    background-color: #3F5F8A;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 1.5rem;
+
+    width: 100%;
+    height: 4rem;
+    font-size: 1.8rem;
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login button:hover {
+    background-color: #334F73;
+}
