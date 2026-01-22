@@ -9,7 +9,7 @@ loginGoogle.onclick = async () => {
     try {
         await signInWithPopup(auth, provider);
         alert("Login com Google OK!");
-        window.location.href = "home/index.html";
+        window.location.href = "cadastro/index.html";
     } catch (e) {
         alert("Erro no login");
         console.error(e);
