@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Pesquisar Sefaz</title>
+  <link rel="stylesheet" href="stylecnpj.css">
+
+</head>
+
+<body>
+
+
+
+
+  <div class="menuBar">
+    <h1>Redirecionador Sefaz</h1>
+    <nav class="navMenu">
+      <a href='../index.html'>Pesquisa Sefaz</a>
+      <a href='#'>Pesquisa CNPJ</a>
+      <a href='../links/links.html'>Links</a>
+    </nav>
+  </div>
+  <div class=" container" id="cSefaz">
+
+    <div class="card">
+      <div class="titulo">
+        <h1>Pesquisa Cnpj</h1>
+      </div>
+      <div>
+        <div class="inputCnpj">
+          <h2>Preencha o campo com a chave de acesso</h2>
+          <input type="text" id="inputCnpj">
+
+        </div>
+        <div id="botoes">
+          <button id="btnBrasil">Pesquisar</button>
+          <button id="limpar">Limpar</button>
+        </div>
+        <Div class="mensagem">
+          <p id="mensagem"></p>
+          <p id="erroInput"></p>
+        </div>
+      </div>
+      <div id="resultado">
+
+        <div class="linha">
+          <p>CNPJ: <span id="cnpjResu"></span></p>
+          <p>Razão Social: <span id="razaoSocial"></span></p>
+          <p>Data Início da Atividade: <span id="dataInicio"></span></p>
+        </div>
+        <div class="linha">
+          <p>Nome Fantasia: <span id="nomeFantasia"></span></p>
+          <p>Porte: <span id="porte"></span></p>
+          <p>Descrição Matriz/Filial: <span id="descricaoMatrizFilial"></span></p>
+
+        </div>
+        <div class="linha">
+          <p>CNAE Principal: <span id="cnaePrincipal"></span></p>
+          <p>Descrição CNAE Principal: <span id="cnaePrincipalDesc"></span></p>
+
+
+        </div>
+        <div class="linha">
+          <h3>CNAEs Secundários</h3>
+          <div id="cnaesSecundarios"></div>
+
+        </div>
+        <div class="linha">
+          <p>Natureza Jurídica: <span id="naturezaJuridica"></span></p>
+          <p>Capital Social: <span id="capitalSocial"></span></p>
+
+        </div>
+        <div class="linha">
+          <p>Logradouro: <span id="logradouro"></span></p>
+          <p>Número: <span id="numero"></span></p>
+          <p>Complemento: <span id="complemento"></span></p>
+          <p>Bairro: <span id="bairro"></span></p>
+          <p>CEP: <span id="cep"></span></p>
+          <p>Município: <span id="municipio"></span></p>
+          <p>Estado (UF): <span id="estado"></span></p>
+
+
+        </div>
+        <div class="linha">
+          <p>Email: <span id="email"></span></p>
+          <p>Telefone 1: <span id="telefone1"></span></p>
+          <p>Telefone 2: <span id="telefone2"></span></p>
+
+
+        </div>
+        <div class="linha">
+          <p>Situação Cadastral: <span id="situacaoCadastral"></span></p>
+          <p>Descrição Situação: <span id="descricaoSituacao"></span></p>
+          <p>Data Situação Cadastral: <span id="dataSituacao"></span></p>
+
+
+
+        </div>
+        <div class="linha">
+          <h3>Sócios (Quadro de Sócios e Administradores)</h3>
+          <div id="qsa"></div>
+
+        </div>
+
+        <div class="linha">
+          <button id="btnMais" class="btn-mais">Mostrar mais</button>
+        </div>
+
+        <div class="linhaadd" id="dadosAdicionais">
+
+
+          <p>Código Matriz/Filial: <span id="identificadorMatrizFilial"></span></p>
+
+          <p>Código Situação Cadastral: <span id="situacaoCadastralCodigo"></span></p>
+          <p>Código Motivo Situação: <span id="motivoSituacaoCodigo"></span></p>
+
+          <p>Código Porte: <span id="codigoPorte"></span></p>
+          <p>Código Natureza Jurídica: <span id="codigoNaturezaJuridica"></span></p>
+
+          <p>Tipo de Logradouro: <span id="tipoLogradouro"></span></p>
+
+          <p>Código Município: <span id="codigoMunicipio"></span></p>
+          <p>Código Município IBGE: <span id="codigoMunicipioIbge"></span></p>
+
+          <p>País: <span id="pais"></span></p>
+          <p>Código País: <span id="codigoPais"></span></p>
+          <p>Cidade no Exterior: <span id="cidadeExterior"></span></p>
+
+          <p>Fax: <span id="fax"></span></p>
+
+          <p>Opção pelo Simples: <span id="opcaoSimples"></span></p>
+          <p>Data Opção Simples: <span id="dataOpcaoSimples"></span></p>
+          <p>Data Exclusão Simples: <span id="dataExclusaoSimples"></span></p>
+
+          <p>Opção pelo MEI: <span id="opcaoMei"></span></p>
+          <p>Data Opção MEI: <span id="dataOpcaoMei"></span></p>
+          <p>Data Exclusão MEI: <span id="dataExclusaoMei"></span></p>
+
+          <p>Regime Tributário: <span id="regimeTributario"></span></p>
+
+          <p>Ente Federativo Responsável: <span id="enteFederativo"></span></p>
+
+          <p>Situação Especial: <span id="situacaoEspecial"></span></p>
+          <p>Data Situação Especial: <span id="dataSituacaoEspecial"></span></p>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <footer class=" rodape">
+    <p> © 2026 - Gustavo Vaz Ferreira.</p>
+    <div id="Contato">
+      <p>Contatos:
+        <a href="https://www.linkedin.com/in/gustavo-ferreira-developer" target="_blank">Linkedin</a>
+        <a href="mailto:gustavovaz278@gmail.com" target="_blank">E-mail</a>
+        <a href="https://github.com/gustavo-vf" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </footer>
+  <script src="scriptcnpj.js"></script>
+</body>
+
+
+</html>

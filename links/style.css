@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: Inter, system-ui, Segoe UI, Arial;
+    background-color: #ecd9bc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #3F3A34;
+}
+
+#resultado p {
+    width: fit-content;
+    align-items: center;
+    color: #5B554F;
+    border-bottom: 4px solid #ba7f7fcd;
+    padding-right: 7px;
+    padding-left: 7px;
+    background-color: #ecd9bc;
+
+
+}
+
+input {
+    width: 95vh;
+    height: 4vh;
+    font-size: 3vh;
+}
+
+button {
+    background: #007bff;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+.titulo a {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f1eb57;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #F3EFE7;
+    width: 60%;
+    border-radius: 3vh;
+    border: 3px solid #ba7f7fcd;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.barraMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.infos {
+    width: 100%;
+    overflow-x: auto;
+    padding: 20PX;
+    gap: 30px;
+}
+
+#tabela {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#tabela th,
+#tabela td {
+    border: 1px solid #000;
+    padding: 6px 8px;
+    vertical-align: middle;
+}
+
+#tabela thead th {
+    background-color: hsl(54, 100%, 62%);
+    /* amarelo tipo Excel */
+    text-align: center;
+    font-weight: bold;
+}
+
+#tabela td:nth-child(1),
+#tabela td:nth-child(3) {
+    text-align: center;
+}
+
+#tabela a {
+    color: #1a73e8;
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+/* efeito hover */
+#tabela tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+#botoes {
+    gap: 1900px;
+}
+
+
+.menuBar {
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+    padding: 10px;
+}
+
+.navMenu {
+    display: flex;
+    margin-right: 10vw;
+    gap: 4vw;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.navMenu a {
+    font-size: x-large;
+    color: bisque;
+    text-decoration: none;
+}
+
+.navMenu a:hover {
+    font-size: xx-large;
+    background-color: bisque;
+    color: teal;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.menuBar {
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+    padding: 10px;
+}
+
+.navMenu {
+    display: flex;
+    margin-right: 10vw;
+    gap: 4vw;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.navMenu a {
+    font-size: x-large;
+    color: bisque;
+    text-decoration: none;
+}
+
+.navMenu a:hover {
+    font-size: xx-large;
+    background-color: bisque;
+    color: teal;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape {
+    width: 100%;
+    justify-items: center;
+    padding: 20px;
+    background-color: teal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rodape a {
+    text-decoration: none;
+}
