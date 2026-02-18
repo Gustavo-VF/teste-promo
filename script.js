@@ -231,7 +231,7 @@ function verificar() {
 
 }
 
-document.getElementById("abrirLink").onclick = function () {
+document.getElementById("brirLink").onclick = function () {
 
     const msg = "Carregando link ...";
     const msgE = "Erro ao abrir apagina";
@@ -266,7 +266,7 @@ document.getElementById("abrirLink").onclick = function () {
 
 
 
-document.getElementById("abrirLink1").onclick = function () {
+document.getElementById("brirLink1").onclick = function () {
 
     const msg = "Carregando link ...";
     const msgE = "Erro ao abrir apagina";
@@ -301,7 +301,7 @@ document.getElementById("abrirLink1").onclick = function () {
     }, 3000);
 }
 
-document.getElementById("abrirLink2").onclick = function () {
+document.getElementById("brirLink2").onclick = function () {
     const msg = "Carregando link ...";
     const msgE = "Erro ao abrir apagina";
     document.getElementById("mensagem").style.display = "none";
